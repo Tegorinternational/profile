@@ -1,0 +1,29 @@
+*{
+  font-size: 14px;
+}
+
+.anim{
+  transition: .5s;
+}
+.anim:hover{
+  transform: translateX(-3px);
+  transition: .5s;
+  
+}
+.icon-hover{
+  transition: .9s;
+}
+.icon-hover:hover{
+  background-color: black;
+  color: white;
+  transform: rotateY(360deg); 
+  transition: 1s;
+}
+
+
+
+/*
+body{
+ background-color: #ffffff;
+ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 8px ), repeating-linear-gradient( #88e1ff, #5519f8);
+}*/
